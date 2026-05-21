@@ -22,12 +22,12 @@ export function About() {
         <div className="lg:col-span-5 space-y-8">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">About the Firm</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] text-balance">
-            Nevada's trusted <em className="copper-text not-italic">roofing</em> professionals.
+            Texas's trusted <em className="copper-text not-italic">roofing</em> professionals.
           </h2>
           <p className="text-foreground/70 leading-relaxed max-w-md">
-            Black Canyon Roofing.net has proudly served Boulder City and the greater Las Vegas area since 1996.
-            Bonded, insured, and built on a foundation of quality workmanship — we install, we stand behind it.
-            Call today for your free estimate.
+            Rivera's Roofing &amp; Construction LLC has proudly served Moody, TX and the surrounding Central Texas
+            area with 15 years of hands-on experience. We work directly with insurances and offer free estimates
+            on every project — quality work, honest pricing.
           </p>
           <div className="grid grid-cols-2 gap-px bg-border/40 rounded-2xl overflow-hidden">
             {stats.map((s, i) => (
@@ -54,8 +54,8 @@ export function About() {
             <img src={roof} alt="Premium metal roof detail" className="w-full h-full object-cover" loading="lazy" />
           </motion.div>
           <div className="absolute -bottom-4 right-10 glass rounded-2xl p-5 max-w-[240px]">
-            <div className="text-xs uppercase tracking-widest text-primary mb-1">Est. 1996</div>
-            <div className="text-sm text-foreground/80">Bonded and insured in Nevada. Serving Boulder City since 1996.</div>
+            <div className="text-xs uppercase tracking-widest text-primary mb-1">15 Years Experience</div>
+            <div className="text-sm text-foreground/80">Licensed and insured in Texas. We work with insurances.</div>
           </div>
         </div>
       </div>

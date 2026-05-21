@@ -41,50 +41,50 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
 
-  --color-maroon: var(--maroon);
+  --color-forest: var(--forest);
   --color-charcoal: var(--charcoal);
   --color-concrete: var(--concrete);
 
-  --shadow-glow: 0 0 60px -10px color-mix(in oklab, var(--maroon) 50%, transparent);
+  --shadow-glow: 0 0 60px -10px color-mix(in oklab, var(--forest) 50%, transparent);
   --shadow-elevate: 0 30px 80px -20px oklch(0 0 0 / 0.8);
 }
 
 :root {
   --radius: 0.5rem;
 
-  --background: oklch(0.09 0.004 15);
-  --foreground: oklch(0.96 0.003 15);
+  --background: oklch(0.09 0.01 150);
+  --foreground: oklch(0.96 0.005 150);
 
-  --card: oklch(0.12 0.005 15);
-  --card-foreground: oklch(0.96 0.003 15);
-  --popover: oklch(0.11 0.004 15);
-  --popover-foreground: oklch(0.96 0.003 15);
+  --card: oklch(0.12 0.012 150);
+  --card-foreground: oklch(0.96 0.005 150);
+  --popover: oklch(0.11 0.01 150);
+  --popover-foreground: oklch(0.96 0.005 150);
 
-  --primary: oklch(0.42 0.14 20);               /* deep maroon */
-  --primary-foreground: oklch(0.96 0.003 15);
-  --secondary: oklch(0.17 0.005 15);
-  --secondary-foreground: oklch(0.96 0.003 15);
+  --primary: oklch(0.50 0.16 150);              /* forest green */
+  --primary-foreground: oklch(0.97 0.005 150);
+  --secondary: oklch(0.17 0.012 150);
+  --secondary-foreground: oklch(0.96 0.005 150);
 
-  --muted: oklch(0.17 0.004 15);
-  --muted-foreground: oklch(0.58 0.008 15);
+  --muted: oklch(0.17 0.008 150);
+  --muted-foreground: oklch(0.58 0.01 150);
 
-  --accent: oklch(0.55 0.12 20);                /* lighter maroon */
-  --accent-foreground: oklch(0.09 0.004 15);
+  --accent: oklch(0.64 0.13 150);               /* lighter green */
+  --accent-foreground: oklch(0.09 0.01 150);
 
   --destructive: oklch(0.58 0.22 27);
   --destructive-foreground: oklch(0.98 0.01 80);
 
-  --border: oklch(0.23 0.007 15 / 0.6);
-  --input: oklch(0.17 0.005 15);
-  --ring: oklch(0.42 0.14 20);
+  --border: oklch(0.24 0.012 150 / 0.6);
+  --input: oklch(0.17 0.01 150);
+  --ring: oklch(0.50 0.16 150);
 
-  --maroon: oklch(0.42 0.14 20);
-  --charcoal: oklch(0.12 0.005 15);
-  --concrete: oklch(0.40 0.007 15);
+  --forest: oklch(0.50 0.16 150);
+  --charcoal: oklch(0.12 0.012 150);
+  --concrete: oklch(0.40 0.01 150);
 
-  --gradient-hero: radial-gradient(ellipse at 50% 0%, oklch(0.30 0.10 20 / 0.5), transparent 60%),
-                   linear-gradient(180deg, oklch(0.08 0.004 15) 0%, oklch(0.06 0.003 15) 100%);
-  --gradient-silver: linear-gradient(135deg, oklch(0.42 0.14 20), oklch(0.58 0.12 22));
+  --gradient-hero: radial-gradient(ellipse at 50% 0%, oklch(0.32 0.12 150 / 0.5), transparent 60%),
+                   linear-gradient(180deg, oklch(0.08 0.01 150) 0%, oklch(0.06 0.008 150) 100%);
+  --gradient-silver: linear-gradient(135deg, oklch(0.50 0.16 150), oklch(0.66 0.13 150));
 }
 
 .dark { color-scheme: dark; }
@@ -100,7 +100,7 @@
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
-  ::selection { background: var(--maroon); color: var(--foreground); }
+  ::selection { background: var(--forest); color: var(--foreground); }
 }
 
 @layer utilities {
@@ -129,8 +129,8 @@
 
   .blueprint-grid {
     background-image:
-      linear-gradient(oklch(0.42 0.14 20 / 0.07) 1px, transparent 1px),
-      linear-gradient(90deg, oklch(0.42 0.14 20 / 0.07) 1px, transparent 1px);
+      linear-gradient(oklch(0.50 0.16 150 / 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(0.50 0.16 150 / 0.07) 1px, transparent 1px);
     background-size: 60px 60px;
   }
 
