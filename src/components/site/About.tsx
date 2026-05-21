@@ -22,12 +22,12 @@ export function About() {
         <div className="lg:col-span-5 space-y-8">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">About the Firm</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] text-balance">
-            Newfoundland's trusted <em className="copper-text not-italic">roofing</em> professionals.
+            Nevada's trusted <em className="copper-text not-italic">roofing</em> professionals.
           </h2>
           <p className="text-foreground/70 leading-relaxed max-w-md">
-            JNJ Premium Roofing is a leading and reputable roofing company serving St. John's and surrounding area.
-            With an A+ rating from the BBB and 5-star reviews on Google, JNJ prioritizes honesty, professionalism,
-            and customer satisfaction on every project.
+            Black Canyon Roofing.net has proudly served Boulder City and the greater Las Vegas area since 1996.
+            Bonded, insured, and built on a foundation of quality workmanship — we install, we stand behind it.
+            Call today for your free estimate.
           </p>
           <div className="grid grid-cols-2 gap-px bg-border/40 rounded-2xl overflow-hidden">
             {stats.map((s, i) => (
@@ -54,8 +54,8 @@ export function About() {
             <img src={roof} alt="Premium metal roof detail" className="w-full h-full object-cover" loading="lazy" />
           </motion.div>
           <div className="absolute -bottom-4 right-10 glass rounded-2xl p-5 max-w-[240px]">
-            <div className="text-xs uppercase tracking-widest text-primary mb-1">A+ BBB Rated</div>
-            <div className="text-sm text-foreground/80">Licensed, bonded, and insured in Newfoundland & Labrador.</div>
+            <div className="text-xs uppercase tracking-widest text-primary mb-1">Est. 1996</div>
+            <div className="text-sm text-foreground/80">Bonded and insured in Nevada. Serving Boulder City since 1996.</div>
           </div>
         </div>
       </div>

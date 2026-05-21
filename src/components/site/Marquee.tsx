@@ -1,6 +1,6 @@
 const words = [
-  "Asphalt Shingles", "Metal Roofing", "Flat Roofing", "Cedar Shingles", "Storm Restoration",
-  "Free Estimates", "Insurance Claims", "Roof Repair", "A+ BBB Rating", "5-Star Service",
+  "Asphalt Shingles", "Tile Roofing", "Metal Roofing", "Flat Roofing", "Storm Restoration",
+  "Free Estimates", "Insurance Claims", "Roof Repair", "Bonded & Insured", "Est. 1996",
 ];
 
 export function Marquee() {

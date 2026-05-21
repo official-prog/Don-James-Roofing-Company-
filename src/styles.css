@@ -41,50 +41,50 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
 
-  --color-crimson: var(--crimson);
+  --color-maroon: var(--maroon);
   --color-charcoal: var(--charcoal);
   --color-concrete: var(--concrete);
 
-  --shadow-glow: 0 0 60px -10px color-mix(in oklab, var(--crimson) 50%, transparent);
+  --shadow-glow: 0 0 60px -10px color-mix(in oklab, var(--maroon) 50%, transparent);
   --shadow-elevate: 0 30px 80px -20px oklch(0 0 0 / 0.8);
 }
 
 :root {
   --radius: 0.5rem;
 
-  --background: oklch(0.10 0.005 20);
-  --foreground: oklch(0.97 0.003 20);
+  --background: oklch(0.09 0.004 15);
+  --foreground: oklch(0.96 0.003 15);
 
-  --card: oklch(0.13 0.006 20);
-  --card-foreground: oklch(0.97 0.003 20);
-  --popover: oklch(0.12 0.005 20);
-  --popover-foreground: oklch(0.97 0.003 20);
+  --card: oklch(0.12 0.005 15);
+  --card-foreground: oklch(0.96 0.003 15);
+  --popover: oklch(0.11 0.004 15);
+  --popover-foreground: oklch(0.96 0.003 15);
 
-  --primary: oklch(0.51 0.22 25);               /* JNJ red */
-  --primary-foreground: oklch(0.97 0.003 20);
-  --secondary: oklch(0.18 0.006 20);
-  --secondary-foreground: oklch(0.97 0.003 20);
+  --primary: oklch(0.42 0.14 20);               /* deep maroon */
+  --primary-foreground: oklch(0.96 0.003 15);
+  --secondary: oklch(0.17 0.005 15);
+  --secondary-foreground: oklch(0.96 0.003 15);
 
-  --muted: oklch(0.18 0.004 20);
-  --muted-foreground: oklch(0.60 0.008 20);
+  --muted: oklch(0.17 0.004 15);
+  --muted-foreground: oklch(0.58 0.008 15);
 
-  --accent: oklch(0.65 0.16 25);                /* lighter red */
-  --accent-foreground: oklch(0.10 0.005 20);
+  --accent: oklch(0.55 0.12 20);                /* lighter maroon */
+  --accent-foreground: oklch(0.09 0.004 15);
 
   --destructive: oklch(0.58 0.22 27);
   --destructive-foreground: oklch(0.98 0.01 80);
 
-  --border: oklch(0.24 0.008 20 / 0.6);
-  --input: oklch(0.18 0.006 20);
-  --ring: oklch(0.51 0.22 25);
+  --border: oklch(0.23 0.007 15 / 0.6);
+  --input: oklch(0.17 0.005 15);
+  --ring: oklch(0.42 0.14 20);
 
-  --crimson: oklch(0.51 0.22 25);
-  --charcoal: oklch(0.13 0.006 20);
-  --concrete: oklch(0.42 0.008 20);
+  --maroon: oklch(0.42 0.14 20);
+  --charcoal: oklch(0.12 0.005 15);
+  --concrete: oklch(0.40 0.007 15);
 
-  --gradient-hero: radial-gradient(ellipse at 50% 0%, oklch(0.35 0.14 25 / 0.5), transparent 60%),
-                   linear-gradient(180deg, oklch(0.09 0.005 20) 0%, oklch(0.07 0.004 20) 100%);
-  --gradient-silver: linear-gradient(135deg, oklch(0.51 0.22 25), oklch(0.68 0.18 28));
+  --gradient-hero: radial-gradient(ellipse at 50% 0%, oklch(0.30 0.10 20 / 0.5), transparent 60%),
+                   linear-gradient(180deg, oklch(0.08 0.004 15) 0%, oklch(0.06 0.003 15) 100%);
+  --gradient-silver: linear-gradient(135deg, oklch(0.42 0.14 20), oklch(0.58 0.12 22));
 }
 
 .dark { color-scheme: dark; }
@@ -100,7 +100,7 @@
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
-  ::selection { background: var(--crimson); color: var(--foreground); }
+  ::selection { background: var(--maroon); color: var(--foreground); }
 }
 
 @layer utilities {
@@ -129,8 +129,8 @@
 
   .blueprint-grid {
     background-image:
-      linear-gradient(oklch(0.51 0.22 25 / 0.06) 1px, transparent 1px),
-      linear-gradient(90deg, oklch(0.51 0.22 25 / 0.06) 1px, transparent 1px);
+      linear-gradient(oklch(0.42 0.14 20 / 0.07) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(0.42 0.14 20 / 0.07) 1px, transparent 1px);
     background-size: 60px 60px;
   }
 

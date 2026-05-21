@@ -3,7 +3,7 @@ import { useRef } from "react";
 import heroImg from "@/assets/hero-home.jpg";
 import { Phone, MapPin, ArrowUpRight } from "lucide-react";
 
-const sequence = ["Quality. Integrity. Reliability.", "Fully Certified & Insured.", "Serving Newfoundland."];
+const sequence = ["We Install. We Stand Behind It.", "Bonded & Insured Since 1996.", "Serving Boulder City & Nevada."];
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -58,7 +58,7 @@ export function Hero() {
             Premium Roofing
           </motion.span>
           <motion.span initial={{ opacity: 0, y: 60 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1, duration: 1.2, ease: [0.22, 1, 0.36, 1] }} className="block">
-            &amp; Repair <em className="copper-text not-italic">Guaranteed.</em>
+            &amp; Repair <em className="copper-text not-italic">done right.</em>
           </motion.span>
         </h1>
 
@@ -68,7 +68,7 @@ export function Hero() {
           transition={{ delay: 1.3, duration: 1 }}
           className="mt-8 max-w-xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
-          Experience the reliability and quality of JNJ Premium Roofing. Fully certified, insured and competitively priced. Get your FREE quote today.
+          Black Canyon Roofing.net has served Boulder City and Nevada since 1996. Bonded, insured, and committed to quality — we install, we stand behind it.
         </motion.p>
 
         <motion.div
@@ -103,18 +103,18 @@ export function Hero() {
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Live
               </span>
             </div>
-            <a href="tel:+17096892578" className="flex items-center gap-3 group">
+            <a href="tel:+17022935650" className="flex items-center gap-3 group">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><Phone className="w-4 h-4" /></span>
               <div>
-                <div className="text-xs text-foreground/60">Call for Free Quote</div>
-                <div className="font-medium group-hover:text-primary transition">(709) 689-2578</div>
+                <div className="text-xs text-foreground/60">Call for Free Estimate</div>
+                <div className="font-medium group-hover:text-primary transition">(702) 293-5650</div>
               </div>
             </a>
             <div className="flex items-center gap-3">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><MapPin className="w-4 h-4" /></span>
               <div>
                 <div className="text-xs text-foreground/60">Service Regions</div>
-                <div className="font-medium text-sm">St. John's · CBS · Mount Pearl</div>
+                <div className="font-medium text-sm">Boulder City · Henderson · Las Vegas</div>
               </div>
             </div>
           </div>

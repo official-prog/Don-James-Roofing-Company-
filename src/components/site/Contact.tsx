@@ -47,13 +47,13 @@ export function Contact() {
             transition={{ duration: 1, delay: 0.15 }}
             className="lg:col-span-2 space-y-4"
           >
-            <ContactCard icon={Phone} label="Call for Free Quote" value="(709) 689-2578" href="tel:+17096892578" />
-            <ContactCard icon={Mail} label="Email Us" value="jnjpremiumroofinginc@hotmail.com" href="mailto:jnjpremiumroofinginc@hotmail.com" />
-            <ContactCard icon={MapPin} label="Headquarters" value="Conception Bay South, NL, Canada" />
+            <ContactCard icon={Phone} label="Call for Free Estimate" value="(702) 293-5650" href="tel:+17022935650" />
+            <ContactCard icon={Mail} label="Email Us" value="wdlawrencejr@gmail.com" href="mailto:wdlawrencejr@gmail.com" />
+            <ContactCard icon={MapPin} label="Headquarters" value="1319 Boulder City Pkwy Ste A, Boulder City, NV 89005" />
             <div className="glass rounded-2xl overflow-hidden h-64">
               <iframe
                 title="Map"
-                src="https://www.google.com/maps?q=Conception+Bay+South+NL+Canada&output=embed"
+                src="https://www.google.com/maps?q=1319+Boulder+City+Pkwy+Boulder+City+NV+89005&output=embed"
                 className="w-full h-full grayscale contrast-125 opacity-80"
                 loading="lazy"
               />
