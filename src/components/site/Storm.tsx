@@ -12,7 +12,7 @@ export function Storm() {
   return (
     <section ref={ref} className="relative h-[80vh] min-h-[600px] overflow-hidden flex items-center">
       <motion.div style={{ y, scale }} className="absolute inset-0">
-        <img src={storm} alt="Florida storm at night" className="w-full h-full object-cover" loading="lazy" />
+        <img src={storm} alt="Storm at night" className="w-full h-full object-cover" loading="lazy" />
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
       </motion.div>
@@ -34,8 +34,8 @@ export function Storm() {
           <p className="text-foreground/70 mt-6 leading-relaxed">
             Same-day tarping. Direct insurance liaison. Full restoration handled by one team, from the first leak to the final shingle.
           </p>
-          <a href="tel:+18637771027" className="mt-8 inline-flex items-center gap-3 rounded-full bg-primary text-primary-foreground px-7 py-4 font-medium hover:shadow-[var(--shadow-glow)] transition-shadow">
-            <Phone className="w-4 h-4" /> (863) 777-1027 · 24/7 Line
+          <a href="tel:+17096892578" className="mt-8 inline-flex items-center gap-3 rounded-full bg-primary text-primary-foreground px-7 py-4 font-medium hover:shadow-[var(--shadow-glow)] transition-shadow">
+            <Phone className="w-4 h-4" /> (709) 689-2578 · Free Quote
           </a>
         </motion.div>
       </div>

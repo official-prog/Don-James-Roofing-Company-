@@ -22,12 +22,12 @@ export function About() {
         <div className="lg:col-span-5 space-y-8">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">About the Firm</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] text-balance">
-            A Florida family of <em className="copper-text not-italic">roofers</em>, engineers, and craftsmen.
+            Newfoundland's trusted <em className="copper-text not-italic">roofing</em> professionals.
           </h2>
           <p className="text-foreground/70 leading-relaxed max-w-md">
-            From the first inspection to the final walkthrough, Florida State Certified Roofing delivers
-            roofing systems engineered for Florida weather and finished to the highest standard. Family-operated,
-            insurance-fluent, and obsessed with the details no one else sees.
+            JNJ Premium Roofing is a leading and reputable roofing company serving St. John's and surrounding area.
+            With an A+ rating from the BBB and 5-star reviews on Google, JNJ prioritizes honesty, professionalism,
+            and customer satisfaction on every project.
           </p>
           <div className="grid grid-cols-2 gap-px bg-border/40 rounded-2xl overflow-hidden">
             {stats.map((s, i) => (
@@ -54,8 +54,8 @@ export function About() {
             <img src={roof} alt="Premium metal roof detail" className="w-full h-full object-cover" loading="lazy" />
           </motion.div>
           <div className="absolute -bottom-4 right-10 glass rounded-2xl p-5 max-w-[240px]">
-            <div className="text-xs uppercase tracking-widest text-primary mb-1">Florida State Certified</div>
-            <div className="text-sm text-foreground/80">Licensed, bonded, and insured across the state of Florida.</div>
+            <div className="text-xs uppercase tracking-widest text-primary mb-1">A+ BBB Rated</div>
+            <div className="text-sm text-foreground/80">Licensed, bonded, and insured in Newfoundland & Labrador.</div>
           </div>
         </div>
       </div>

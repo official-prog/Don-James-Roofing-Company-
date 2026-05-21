@@ -29,7 +29,7 @@ export function Process() {
 
         <div className="relative">
           <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-border/60 -translate-x-1/2" />
-          <motion.div style={{ height: lineH }} className="absolute left-4 md:left-1/2 top-0 w-px bg-gradient-to-b from-primary via-accent to-primary -translate-x-1/2 shadow-[0_0_20px_var(--copper)]" />
+          <motion.div style={{ height: lineH }} className="absolute left-4 md:left-1/2 top-0 w-px bg-gradient-to-b from-primary via-accent to-primary -translate-x-1/2 shadow-[0_0_20px_var(--primary)]" />
 
           <div className="space-y-16 md:space-y-24">
             {steps.map((s, i) => (
@@ -46,7 +46,7 @@ export function Process() {
                   <h3 className="font-display text-3xl md:text-4xl mt-2">{s.t}</h3>
                   <p className="text-foreground/60 mt-3 max-w-sm md:inline-block">{s.d}</p>
                 </div>
-                <div className="absolute left-4 md:left-1/2 top-6 w-3 h-3 rounded-full bg-primary -translate-x-1/2 ring-4 ring-background shadow-[0_0_20px_var(--copper)]" />
+                <div className="absolute left-4 md:left-1/2 top-6 w-3 h-3 rounded-full bg-primary -translate-x-1/2 ring-4 ring-background shadow-[0_0_20px_var(--primary)]" />
                 <div />
               </motion.div>
             ))}

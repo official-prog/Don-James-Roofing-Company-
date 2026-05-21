@@ -47,13 +47,13 @@ export function Contact() {
             transition={{ duration: 1, delay: 0.15 }}
             className="lg:col-span-2 space-y-4"
           >
-            <ContactCard icon={Phone} label="24/7 Emergency" value="(863) 777-1027" href="tel:+18637771027" />
-            <ContactCard icon={Mail} label="Email Us" value="flstatecertifiedroofing@gmail.com" href="mailto:flstatecertifiedroofing@gmail.com" />
-            <ContactCard icon={MapPin} label="Headquarters" value="1215 N Galloway Rd, Lakeland, FL 33810" />
+            <ContactCard icon={Phone} label="Call for Free Quote" value="(709) 689-2578" href="tel:+17096892578" />
+            <ContactCard icon={Mail} label="Email Us" value="jnjpremiumroofinginc@hotmail.com" href="mailto:jnjpremiumroofinginc@hotmail.com" />
+            <ContactCard icon={MapPin} label="Headquarters" value="Conception Bay South, NL, Canada" />
             <div className="glass rounded-2xl overflow-hidden h-64">
               <iframe
                 title="Map"
-                src="https://www.google.com/maps?q=1215+N+Galloway+Rd+Lakeland+FL+33810&output=embed"
+                src="https://www.google.com/maps?q=Conception+Bay+South+NL+Canada&output=embed"
                 className="w-full h-full grayscale contrast-125 opacity-80"
                 loading="lazy"
               />

@@ -1,6 +1,6 @@
 const words = [
-  "Tile Roofing", "Metal Roofing", "Boral", "DaVinci", "Asphalt Shingles",
-  "Storm Restoration", "Custom Homes", "Renovations", "Outdoor Living", "Insurance Claims",
+  "Asphalt Shingles", "Metal Roofing", "Flat Roofing", "Cedar Shingles", "Storm Restoration",
+  "Free Estimates", "Insurance Claims", "Roof Repair", "A+ BBB Rating", "5-Star Service",
 ];
 
 export function Marquee() {
