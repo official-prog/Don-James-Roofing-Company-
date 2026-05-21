@@ -3,7 +3,7 @@ import { useRef } from "react";
 import heroImg from "@/assets/hero-home.jpg";
 import { Phone, MapPin, ArrowUpRight } from "lucide-react";
 
-const sequence = ["Built With Precision.", "Crafted For Durability.", "Trusted Across Texas."];
+const sequence = ["Built With Precision.", "Crafted For Durability.", "Trusted Across Florida."];
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -58,7 +58,7 @@ export function Hero() {
             Premium Roofing
           </motion.span>
           <motion.span initial={{ opacity: 0, y: 60 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1, duration: 1.2, ease: [0.22, 1, 0.36, 1] }} className="block">
-            &amp; Construction <em className="copper-text not-italic">built to last.</em>
+            &amp; Repair <em className="copper-text not-italic">built to last.</em>
           </motion.span>
         </h1>
 
@@ -68,7 +68,7 @@ export function Hero() {
           transition={{ delay: 1.3, duration: 1 }}
           className="mt-8 max-w-xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
-          Luxury roofing, custom construction, and elite craftsmanship across Texas, engineered for storms, finished for legacy.
+          Full service roofing company dedicated to unsurpassed customer service. 24/7 emergency repairs, free estimates — serving Lakeland and all of Central Florida.
         </motion.p>
 
         <motion.div
@@ -103,18 +103,18 @@ export function Hero() {
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Live
               </span>
             </div>
-            <a href="tel:+18001234567" className="flex items-center gap-3 group">
+            <a href="tel:+18637771027" className="flex items-center gap-3 group">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><Phone className="w-4 h-4" /></span>
               <div>
                 <div className="text-xs text-foreground/60">Emergency Roofing</div>
-                <div className="font-medium group-hover:text-primary transition">(800) 123-4567</div>
+                <div className="font-medium group-hover:text-primary transition">(863) 777-1027</div>
               </div>
             </a>
             <div className="flex items-center gap-3">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><MapPin className="w-4 h-4" /></span>
               <div>
                 <div className="text-xs text-foreground/60">Service Regions</div>
-                <div className="font-medium text-sm">Dallas · Fort Worth · Austin</div>
+                <div className="font-medium text-sm">Lakeland · Tampa · Orlando</div>
               </div>
             </div>
           </div>

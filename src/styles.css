@@ -41,54 +41,52 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
 
-  --color-copper: var(--copper);
-  --color-copper-glow: var(--copper-glow);
-  --color-gold: var(--gold);
+  --color-navy: var(--navy);
+  --color-silver: var(--silver);
   --color-charcoal: var(--charcoal);
   --color-concrete: var(--concrete);
 
-  --shadow-glow: 0 0 60px -10px color-mix(in oklab, var(--copper) 50%, transparent);
+  --shadow-glow: 0 0 60px -10px color-mix(in oklab, var(--silver) 50%, transparent);
   --shadow-elevate: 0 30px 80px -20px oklch(0 0 0 / 0.8);
 }
 
 :root {
   --radius: 0.5rem;
 
-  --background: oklch(0.14 0.005 60);
-  --foreground: oklch(0.96 0.01 80);
+  --background: oklch(0.09 0.025 240);
+  --foreground: oklch(0.96 0.008 240);
 
-  --card: oklch(0.18 0.008 60);
-  --card-foreground: oklch(0.96 0.01 80);
-  --popover: oklch(0.16 0.008 60);
-  --popover-foreground: oklch(0.96 0.01 80);
+  --card: oklch(0.13 0.03 240);
+  --card-foreground: oklch(0.96 0.008 240);
+  --popover: oklch(0.11 0.028 240);
+  --popover-foreground: oklch(0.96 0.008 240);
 
-  --primary: oklch(0.68 0.14 45);              /* copper */
-  --primary-foreground: oklch(0.14 0.005 60);
-  --secondary: oklch(0.22 0.008 60);
-  --secondary-foreground: oklch(0.96 0.01 80);
+  --primary: oklch(0.62 0.13 228);              /* steel blue */
+  --primary-foreground: oklch(0.97 0.005 240);
+  --secondary: oklch(0.18 0.04 240);
+  --secondary-foreground: oklch(0.96 0.008 240);
 
-  --muted: oklch(0.22 0.005 60);
-  --muted-foreground: oklch(0.65 0.01 70);
+  --muted: oklch(0.18 0.025 240);
+  --muted-foreground: oklch(0.60 0.02 230);
 
-  --accent: oklch(0.78 0.12 75);               /* gold */
-  --accent-foreground: oklch(0.14 0.005 60);
+  --accent: oklch(0.76 0.04 225);               /* metallic silver-blue */
+  --accent-foreground: oklch(0.09 0.025 240);
 
   --destructive: oklch(0.58 0.22 27);
   --destructive-foreground: oklch(0.98 0.01 80);
 
-  --border: oklch(0.28 0.008 60 / 0.6);
-  --input: oklch(0.22 0.008 60);
-  --ring: oklch(0.68 0.14 45);
+  --border: oklch(0.26 0.04 240 / 0.6);
+  --input: oklch(0.18 0.03 240);
+  --ring: oklch(0.62 0.13 228);
 
-  --copper: oklch(0.68 0.14 45);
-  --copper-glow: oklch(0.78 0.16 50);
-  --gold: oklch(0.82 0.13 80);
-  --charcoal: oklch(0.18 0.008 60);
-  --concrete: oklch(0.42 0.01 70);
+  --navy: oklch(0.32 0.14 240);
+  --silver: oklch(0.76 0.04 225);
+  --charcoal: oklch(0.13 0.03 240);
+  --concrete: oklch(0.42 0.02 230);
 
-  --gradient-hero: radial-gradient(ellipse at 50% 0%, oklch(0.28 0.04 50 / 0.5), transparent 60%),
-                   linear-gradient(180deg, oklch(0.12 0.005 60) 0%, oklch(0.10 0.005 60) 100%);
-  --gradient-copper: linear-gradient(135deg, oklch(0.68 0.14 45), oklch(0.82 0.13 80));
+  --gradient-hero: radial-gradient(ellipse at 50% 0%, oklch(0.28 0.10 240 / 0.5), transparent 60%),
+                   linear-gradient(180deg, oklch(0.08 0.025 240) 0%, oklch(0.06 0.02 240) 100%);
+  --gradient-silver: linear-gradient(135deg, oklch(0.62 0.13 228), oklch(0.82 0.05 220));
 }
 
 .dark { color-scheme: dark; }
@@ -104,7 +102,7 @@
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
   }
-  ::selection { background: var(--copper); color: var(--charcoal); }
+  ::selection { background: var(--navy); color: var(--foreground); }
 }
 
 @layer utilities {
@@ -118,7 +116,7 @@
   }
 
   .copper-text {
-    background: var(--gradient-copper);
+    background: var(--gradient-silver);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -133,8 +131,8 @@
 
   .blueprint-grid {
     background-image:
-      linear-gradient(oklch(0.68 0.14 45 / 0.06) 1px, transparent 1px),
-      linear-gradient(90deg, oklch(0.68 0.14 45 / 0.06) 1px, transparent 1px);
+      linear-gradient(oklch(0.62 0.13 228 / 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, oklch(0.62 0.13 228 / 0.06) 1px, transparent 1px);
     background-size: 60px 60px;
   }
 

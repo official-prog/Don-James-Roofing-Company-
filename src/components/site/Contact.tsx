@@ -47,13 +47,13 @@ export function Contact() {
             transition={{ duration: 1, delay: 0.15 }}
             className="lg:col-span-2 space-y-4"
           >
-            <ContactCard icon={Phone} label="24/7 Emergency" value="(800) 123-4567" href="tel:+18001234567" />
-            <ContactCard icon={Mail} label="Send a brief" value="hello@meconstruction.tx" href="mailto:hello@meconstruction.tx" />
-            <ContactCard icon={MapPin} label="Headquarters" value="Dallas–Fort Worth Metroplex, Texas" />
+            <ContactCard icon={Phone} label="24/7 Emergency" value="(863) 777-1027" href="tel:+18637771027" />
+            <ContactCard icon={Mail} label="Email Us" value="flstatecertifiedroofing@gmail.com" href="mailto:flstatecertifiedroofing@gmail.com" />
+            <ContactCard icon={MapPin} label="Headquarters" value="1215 N Galloway Rd, Lakeland, FL 33810" />
             <div className="glass rounded-2xl overflow-hidden h-64">
               <iframe
                 title="Map"
-                src="https://www.google.com/maps?q=Dallas,TX&output=embed"
+                src="https://www.google.com/maps?q=1215+N+Galloway+Rd+Lakeland+FL+33810&output=embed"
                 className="w-full h-full grayscale contrast-125 opacity-80"
                 loading="lazy"
               />
