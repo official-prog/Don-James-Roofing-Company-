@@ -8,7 +8,7 @@ export function Footer() {
           <img src={logo} alt="JNJ Premium Roofing" className="h-10 w-auto object-contain" />
           <div>
             <div className="font-display text-lg leading-tight">JNJ Premium Roofing Inc.</div>
-            <div className="text-xs text-foreground/50">Quality · Integrity · Reliability — Conception Bay South, NL</div>
+            <div className="text-xs text-foreground/50">Quality · Integrity · Reliability · Conception Bay South, NL</div>
           </div>
         </div>
         <div className="text-xs text-foreground/50">© {new Date().getFullYear()} JNJ Premium Roofing Inc. Licensed &amp; insured in Newfoundland.</div>
