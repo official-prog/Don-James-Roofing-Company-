@@ -68,7 +68,7 @@ export function Hero() {
           transition={{ delay: 1.3, duration: 1 }}
           className="mt-8 max-w-xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
-          Don James Roofing Company is your trusted roofing contractor in Carson City and the surrounding Nevada region. For all your roofing needs — quality workmanship, free estimates, fully licensed and insured.
+          Don James Roofing Company is your trusted roofing contractor in Carson City and the surrounding Nevada region. Quality workmanship, free estimates, fully licensed and insured.
         </motion.p>
 
         <motion.div
