@@ -3,7 +3,7 @@ import { useRef } from "react";
 import heroImg from "@/assets/hero-home.jpg";
 import { Phone, MapPin, ArrowUpRight } from "lucide-react";
 
-const sequence = ["15 Years of Experience.", "We Work With Insurances.", "Free Estimates Available."];
+const sequence = ["Shingles. Flat. Green. Tile. Metal.", "Serving Ottawa & Gatineau.", "Free Estimates Available."];
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -58,7 +58,7 @@ export function Hero() {
             Premium Roofing
           </motion.span>
           <motion.span initial={{ opacity: 0, y: 60 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1, duration: 1.2, ease: [0.22, 1, 0.36, 1] }} className="block">
-            &amp; Construction <em className="copper-text not-italic">done right.</em>
+            Solutions <em className="copper-text not-italic">done right.</em>
           </motion.span>
         </h1>
 
@@ -68,7 +68,7 @@ export function Hero() {
           transition={{ delay: 1.3, duration: 1 }}
           className="mt-8 max-w-xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
-          Rivera's Roofing &amp; Construction LLC brings 15 years of experience to Moody, TX and surrounding areas. We work with insurances and offer free estimates on every job.
+          RM Roofing serves Ottawa and Gatineau with expert installation of shingles, flat, green, tile, and metal roofs. Bardeaux, toit plat, vert, céramique, tôle — free estimates on every project.
         </motion.p>
 
         <motion.div
@@ -103,18 +103,18 @@ export function Hero() {
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Live
               </span>
             </div>
-            <a href="tel:+12543798220" className="flex items-center gap-3 group">
+            <a href="tel:+16139131471" className="flex items-center gap-3 group">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><Phone className="w-4 h-4" /></span>
               <div>
                 <div className="text-xs text-foreground/60">Call for Free Estimate</div>
-                <div className="font-medium group-hover:text-primary transition">(254) 379-8220</div>
+                <div className="font-medium group-hover:text-primary transition">(613) 913-1471</div>
               </div>
             </a>
             <div className="flex items-center gap-3">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><MapPin className="w-4 h-4" /></span>
               <div>
                 <div className="text-xs text-foreground/60">Service Regions</div>
-                <div className="font-medium text-sm">Moody · Waco · Temple · Killeen</div>
+                <div className="font-medium text-sm">Ottawa · Gatineau · Kanata · Nepean</div>
               </div>
             </div>
           </div>

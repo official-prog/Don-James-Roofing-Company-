@@ -3,11 +3,11 @@ import { ShieldCheck, Award, MessageSquare, Heart, DollarSign, FileCheck, Sparkl
 import blueprint from "@/assets/blueprint.jpg";
 
 const items = [
-  { i: ShieldCheck, t: "Licensed & Insured", d: "Fully licensed and insured in the state of Texas." },
+  { i: ShieldCheck, t: "Licensed & Insured", d: "Fully licensed and insured in the province of Ontario." },
   { i: Award, t: "Premium Materials", d: "Only top-tier supplier networks, no shortcuts." },
   { i: FileCheck, t: "Warranty-Backed", d: "Multi-year workmanship and manufacturer coverage." },
   { i: MessageSquare, t: "Rapid Communication", d: "A senior project lead answers your call." },
-  { i: Heart, t: "Family-Operated", d: "Serving Moody and Central Texas for 15 years." },
+  { i: Heart, t: "Bilingual Service", d: "Serving Ottawa and Gatineau in English and French." },
   { i: DollarSign, t: "Transparent Pricing", d: "Fixed-price proposals with line-item clarity." },
   { i: Users, t: "Insurance Assistance", d: "We speak adjuster and we negotiate hard." },
   { i: Sparkles, t: "Elite Workmanship", d: "Finish details inspected to architectural standard." },

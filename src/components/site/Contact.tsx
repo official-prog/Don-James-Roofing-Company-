@@ -47,13 +47,13 @@ export function Contact() {
             transition={{ duration: 1, delay: 0.15 }}
             className="lg:col-span-2 space-y-4"
           >
-            <ContactCard icon={Phone} label="Call for Free Estimate" value="(254) 379-8220" href="tel:+12543798220" />
-            <ContactCard icon={Mail} label="Email Us" value="rroofingandconstructionllc@gmail.com" href="mailto:rroofingandconstructionllc@gmail.com" />
-            <ContactCard icon={MapPin} label="Headquarters" value="Moody, TX, United States" />
+            <ContactCard icon={Phone} label="Call for Free Estimate" value="(613) 913-1471" href="tel:+16139131471" />
+            <ContactCard icon={Mail} label="Email Us" value="rm.roofing@hotmail.com" href="mailto:rm.roofing@hotmail.com" />
+            <ContactCard icon={MapPin} label="Headquarters" value="Ottawa, ON, Canada" />
             <div className="glass rounded-2xl overflow-hidden h-64">
               <iframe
                 title="Map"
-                src="https://www.google.com/maps?q=Moody+TX+United+States&output=embed"
+                src="https://www.google.com/maps?q=Ottawa+ON+Canada&output=embed"
                 className="w-full h-full grayscale contrast-125 opacity-80"
                 loading="lazy"
               />
