@@ -22,12 +22,12 @@ export function About() {
         <div className="lg:col-span-5 space-y-8">
           <span className="text-xs uppercase tracking-[0.3em] text-primary">About the Firm</span>
           <h2 className="font-display text-5xl md:text-7xl leading-[0.95] text-balance">
-            Ottawa's trusted <em className="copper-text not-italic">roofing</em> professionals.
+            Nevada's trusted <em className="copper-text not-italic">roofing</em> professionals.
           </h2>
           <p className="text-foreground/70 leading-relaxed max-w-md">
-            RM Roofing proudly serves Ottawa, Gatineau, and the surrounding region with expert installation
-            across all roofing types: shingles, flat, green, tile, and metal. Bardeaux, toit plat, vert,
-            céramique, tôle. Licensed, insured, and committed to quality on every project.
+            Don James Roofing Company has proudly served Carson City, Reno, and the surrounding Nevada
+            region for all your roofing needs. Licensed, insured, and committed to quality craftsmanship
+            on every project. Call today for your free estimate.
           </p>
           <div className="grid grid-cols-2 gap-px bg-border/40 rounded-2xl overflow-hidden">
             {stats.map((s, i) => (
@@ -54,8 +54,8 @@ export function About() {
             <img src={roof} alt="Premium metal roof detail" className="w-full h-full object-cover" loading="lazy" />
           </motion.div>
           <div className="absolute -bottom-4 right-10 glass rounded-2xl p-5 max-w-[240px]">
-            <div className="text-xs uppercase tracking-widest text-primary mb-1">Ottawa · Gatineau</div>
-            <div className="text-sm text-foreground/80">Licensed and insured in Ontario. Bilingual service.</div>
+            <div className="text-xs uppercase tracking-widest text-primary mb-1">Carson City, NV</div>
+            <div className="text-sm text-foreground/80">Licensed and insured in Nevada. Serving the greater Reno area.</div>
           </div>
         </div>
       </div>

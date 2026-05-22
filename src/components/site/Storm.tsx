@@ -34,8 +34,8 @@ export function Storm() {
           <p className="text-foreground/70 mt-6 leading-relaxed">
             Same-day tarping. Direct insurance liaison. Full restoration handled by one team, from the first leak to the final shingle.
           </p>
-          <a href="tel:+16139131471" className="mt-8 inline-flex items-center gap-3 rounded-full bg-primary text-primary-foreground px-7 py-4 font-medium hover:shadow-[var(--shadow-glow)] transition-shadow">
-            <Phone className="w-4 h-4" /> (613) 913-1471 · Free Estimate
+          <a href="tel:+17758826141" className="mt-8 inline-flex items-center gap-3 rounded-full bg-primary text-primary-foreground px-7 py-4 font-medium hover:shadow-[var(--shadow-glow)] transition-shadow">
+            <Phone className="w-4 h-4" /> (775) 882-6141 · Free Estimate
           </a>
         </motion.div>
       </div>

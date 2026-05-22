@@ -3,7 +3,7 @@ import { useRef } from "react";
 import heroImg from "@/assets/hero-home.jpg";
 import { Phone, MapPin, ArrowUpRight } from "lucide-react";
 
-const sequence = ["Shingles. Flat. Green. Tile. Metal.", "Serving Ottawa & Gatineau.", "Free Estimates Available."];
+const sequence = ["For All Your Roofing Needs.", "Serving Carson City & Nevada.", "Free Estimates Available."];
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -58,7 +58,7 @@ export function Hero() {
             Premium Roofing
           </motion.span>
           <motion.span initial={{ opacity: 0, y: 60 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 1, duration: 1.2, ease: [0.22, 1, 0.36, 1] }} className="block">
-            Solutions <em className="copper-text not-italic">done right.</em>
+            &amp; Repair <em className="copper-text not-italic">done right.</em>
           </motion.span>
         </h1>
 
@@ -68,7 +68,7 @@ export function Hero() {
           transition={{ delay: 1.3, duration: 1 }}
           className="mt-8 max-w-xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
-          RM Roofing serves Ottawa and Gatineau with expert installation of shingles, flat, green, tile, and metal roofs. Bardeaux, toit plat, vert, céramique, tôle. Free estimates on every project.
+          Don James Roofing Company is your trusted roofing contractor in Carson City and the surrounding Nevada region. For all your roofing needs — quality workmanship, free estimates, fully licensed and insured.
         </motion.p>
 
         <motion.div
@@ -103,18 +103,18 @@ export function Hero() {
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" /> Live
               </span>
             </div>
-            <a href="tel:+16139131471" className="flex items-center gap-3 group">
+            <a href="tel:+17758826141" className="flex items-center gap-3 group">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><Phone className="w-4 h-4" /></span>
               <div>
                 <div className="text-xs text-foreground/60">Call for Free Estimate</div>
-                <div className="font-medium group-hover:text-primary transition">(613) 913-1471</div>
+                <div className="font-medium group-hover:text-primary transition">(775) 882-6141</div>
               </div>
             </a>
             <div className="flex items-center gap-3">
               <span className="p-2 rounded-lg bg-primary/15 text-primary"><MapPin className="w-4 h-4" /></span>
               <div>
                 <div className="text-xs text-foreground/60">Service Regions</div>
-                <div className="font-medium text-sm">Ottawa · Gatineau · Kanata · Nepean</div>
+                <div className="font-medium text-sm">Carson City · Reno · Sparks · Gardnerville</div>
               </div>
             </div>
           </div>

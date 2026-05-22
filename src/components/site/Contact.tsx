@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, ArrowUpRight } from "lucide-react";
+import { Phone, MapPin, ArrowUpRight, Facebook } from "lucide-react";
 
 export function Contact() {
   return (
@@ -47,13 +47,13 @@ export function Contact() {
             transition={{ duration: 1, delay: 0.15 }}
             className="lg:col-span-2 space-y-4"
           >
-            <ContactCard icon={Phone} label="Call for Free Estimate" value="(613) 913-1471" href="tel:+16139131471" />
-            <ContactCard icon={Mail} label="Email Us" value="rm.roofing@hotmail.com" href="mailto:rm.roofing@hotmail.com" />
-            <ContactCard icon={MapPin} label="Headquarters" value="Ottawa, ON, Canada" />
+            <ContactCard icon={Phone} label="Call for Free Estimate" value="(775) 882-6141" href="tel:+17758826141" />
+            <ContactCard icon={Facebook} label="Find Us on Facebook" value="Don James Roofing Company" href="https://www.facebook.com/p/Don-James-Roofing-Company-100045208849695/" />
+            <ContactCard icon={MapPin} label="Headquarters" value="5263 Arrowhead Dr, Carson City, NV 89706" />
             <div className="glass rounded-2xl overflow-hidden h-64">
               <iframe
                 title="Map"
-                src="https://www.google.com/maps?q=Ottawa+ON+Canada&output=embed"
+                src="https://www.google.com/maps?q=5263+Arrowhead+Dr+Carson+City+NV+89706&output=embed"
                 className="w-full h-full grayscale contrast-125 opacity-80"
                 loading="lazy"
               />

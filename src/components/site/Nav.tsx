@@ -18,8 +18,8 @@ export function Nav() {
       <div className="mx-auto mt-4 max-w-7xl px-4">
         <div className="glass rounded-full flex items-center justify-between pl-3 pr-2 py-2">
           <a href="#" className="flex items-center gap-3">
-            <span className="h-9 w-9 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-display font-bold text-sm shrink-0">RM</span>
-            <span className="font-display text-lg hidden sm:inline">RM Roofing</span>
+            <span className="h-9 w-9 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-display font-bold text-sm shrink-0">DJ</span>
+            <span className="font-display text-lg hidden sm:inline">Don James Roofing</span>
           </a>
           <nav className="hidden md:flex items-center gap-1 text-sm">
             {links.map((l) => (
