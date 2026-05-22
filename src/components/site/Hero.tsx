@@ -68,7 +68,7 @@ export function Hero() {
           transition={{ delay: 1.3, duration: 1 }}
           className="mt-8 max-w-xl text-base md:text-lg text-foreground/70 leading-relaxed"
         >
-          RM Roofing serves Ottawa and Gatineau with expert installation of shingles, flat, green, tile, and metal roofs. Bardeaux, toit plat, vert, céramique, tôle — free estimates on every project.
+          RM Roofing serves Ottawa and Gatineau with expert installation of shingles, flat, green, tile, and metal roofs. Bardeaux, toit plat, vert, céramique, tôle. Free estimates on every project.
         </motion.p>
 
         <motion.div

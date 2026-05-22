@@ -26,7 +26,7 @@ export function About() {
           </h2>
           <p className="text-foreground/70 leading-relaxed max-w-md">
             RM Roofing proudly serves Ottawa, Gatineau, and the surrounding region with expert installation
-            across all roofing types — shingles, flat, green, tile, and metal. Bardeaux, toit plat, vert,
+            across all roofing types: shingles, flat, green, tile, and metal. Bardeaux, toit plat, vert,
             céramique, tôle. Licensed, insured, and committed to quality on every project.
           </p>
           <div className="grid grid-cols-2 gap-px bg-border/40 rounded-2xl overflow-hidden">
